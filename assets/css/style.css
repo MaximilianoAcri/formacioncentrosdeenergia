@@ -493,6 +493,7 @@ h6 {
 @media (max-width: 768px) {
   #hero {
     height: 100vh;
+    background-image: url(../img/valeads/P1110918.JPG);
   }
 
   #hero h1 {
