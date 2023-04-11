@@ -632,7 +632,10 @@ section {
   position: relative;
 }
 
-.about3 .content ul i {
+.about4{
+  padding-top: 0px;
+}
+.about4 .content ul i {
   position: absolute;
   font-size: 20px;
   left: 0;
@@ -640,7 +643,35 @@ section {
   color: #ab0af5;
 }
 
-.about3 .content p:last-child {
+.about4 .content p:last-child {
+  margin-bottom: 0;
+}
+
+.about4 .content h3 {
+  font-weight: 700;
+  font-size: 28px;
+  font-family: "Poppins", sans-serif;
+}
+
+.about4 .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.about4 .content ul li {
+  padding: 0 0 8px 26px;
+  position: relative;
+}
+
+.about4 .content ul i {
+  position: absolute;
+  font-size: 20px;
+  left: 0;
+  top: -3px;
+  color: #ab0af5;
+}
+
+.about4 .content p:last-child {
   margin-bottom: 0;
 }
 
