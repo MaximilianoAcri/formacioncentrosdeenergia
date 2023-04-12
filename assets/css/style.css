@@ -581,6 +581,24 @@ background-image: linear-gradient(225deg, #dc3cff 0%, #784BA0 50%, #2B86C5 100%)
   translate: 0 2px;
   
 }
+
+.form input{
+    height: auto;
+    width:100%;
+    padding: 0;
+    box-sizing: content-box;
+}
+.label {
+  text-decoration: 5px solid;
+
+}
+@media (max-width: 768px) {
+
+.form h3{
+    margin-top: 50px;
+}
+}
+
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/

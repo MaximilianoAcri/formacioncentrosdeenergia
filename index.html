@@ -539,27 +539,7 @@ Talleres monográficos con Claudia Casanovas y Enzo Rossi. (12hs de duración)
           <h2>Nuestro Equipo</h2>
           <p>Docentes</p>
         </div>
-
-        <form name="contact" method="POST" data-netlify="true">
-          <p>
-            <label>Your Name: <input type="text" name="name" /></label>
-          </p>
-          <p>
-            <label>Your Email: <input type="email" name="email" /></label>
-          </p>
-          <p>
-            <label>Your Role: <select name="role[]" multiple>
-              <option value="leader">Leader</option>
-              <option value="follower">Follower</option>
-            </select></label>
-          </p>
-          <p>
-            <label>Message: <textarea name="message"></textarea></label>
-          </p>
-          <p>
-            <button type="submit">Send</button>
-          </p>
-        </form>
+        
 
         <div class="row">
 
@@ -650,7 +630,7 @@ Talleres monográficos con Claudia Casanovas y Enzo Rossi. (12hs de duración)
 
         <div class="row mt-5">
 
-          <div class="col-lg-4">
+          <div class="col-lg-6">
             <div class="info">
               <div class="address">
                 <i class="bi bi-geo-alt"></i>
@@ -670,17 +650,30 @@ Talleres monográficos con Claudia Casanovas y Enzo Rossi. (12hs de duración)
                 <h4>Teléfono:</h4>
                 <p>+34 658 65 48 24</p>
               </div>
-
             </div>
-
           </div>
 
-          
-          </div>
-
+        <div class="col-lg-6 align-items-center form">
+      <h3 style="color: #ab0af5 ;"><b>Escribenos</b></h3>
+      <form name="contact" method="POST" data-netlify="true">
+        <p>
+          <label>Apellido y Nombre Completo: <input type="text" name="nombre" /></label>
+        </p>
+        <p>
+          <label>Email: <input type="email" name="email" /></label>
+        </p>
+        <p>
+          <label>Teléfono: <input type="number" name="numero"> </label>
+        </p>
+        <p>
+          <label>Mensaje: <textarea name="mensaje"></textarea></label>
+        </p>
+        <p>
+          <button class="about2" type="submit">Enviar</button>
+        </p>
+      </form>
         </div>
-
-      </div>
+        </div>
     </section><!-- End Contact Section -->
 
   </main><!-- End #main -->
