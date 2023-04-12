@@ -1297,6 +1297,7 @@ background-image: linear-gradient(225deg, #dc3cff 0%, #784BA0 50%, #2B86C5 100%)
 .team .member .member-img {
   position: relative;
   overflow: hidden;
+  background-color: #18d26e;
 }
 
 .team .member .social {
@@ -1336,6 +1337,7 @@ background-image: linear-gradient(225deg, #dc3cff 0%, #784BA0 50%, #2B86C5 100%)
 
 .team .member .member-info {
   padding: 25px 15px;
+  box-shadow: 5px #000;
 }
 
 .team .member .member-info h4 {
@@ -1349,20 +1351,22 @@ background-image: linear-gradient(225deg, #dc3cff 0%, #784BA0 50%, #2B86C5 100%)
   display: block;
   font-size: 13px;
   font-weight: 400;
-  color: #aaaaaa;
+  color: #ab0af5;
 }
 
 .team .member .member-info p {
   font-style: italic;
   font-size: 14px;
   line-height: 26px;
-  color: #777777;
+  color: #000;
 }
 
 .team .member:hover .social {
   opacity: 1;
   bottom: 15px;
 }
+
+
 
 /*--------------------------------------------------------------
 # Contact
