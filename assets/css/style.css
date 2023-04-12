@@ -1297,7 +1297,6 @@ background-image: linear-gradient(225deg, #dc3cff 0%, #784BA0 50%, #2B86C5 100%)
 .team .member .member-img {
   position: relative;
   overflow: hidden;
-  background-color: #18d26e;
 }
 
 .team .member .social {
@@ -1367,7 +1366,24 @@ background-image: linear-gradient(225deg, #dc3cff 0%, #784BA0 50%, #2B86C5 100%)
 }
 
 
+/*-----------------------------------------------------------
+YOUTUBE
 
+-----*/
+.video-responsive {
+	height: 0;
+	overflow: hidden;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	position: relative;
+	}
+.video-responsive iframe, .video-responsive object, .video-responsive embed {
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	}
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
