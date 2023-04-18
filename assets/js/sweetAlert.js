@@ -7,7 +7,7 @@ Swal.fire({
   paddingTitle: 0,
   showConfirmButton:true,
   confirmButtonColor: '#ab0af5',
-  title: '¡Aprovecha esta oportunidad!',
+  title: '¡Ven a conocernos!',
   footer:'Escribenos por WhatsApp'
 
 
