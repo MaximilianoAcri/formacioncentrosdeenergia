@@ -1,7 +1,7 @@
 Swal.fire({
   imageUrl: 'assets/img/taller (16).png',
   backdrop:true,
-  timer: 15000,
+  timer: 20000,
   allowOutsideClick: false,
   padding: 0,
   paddingTitle: 0,
