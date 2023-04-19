@@ -4,7 +4,6 @@ Swal.fire({
   timer: 20000,
   allowOutsideClick: false,
   padding: 0,
-  paddingTitle: 0,
   showConfirmButton:true,
   confirmButtonColor: '#ab0af5',
 
