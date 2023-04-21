@@ -1779,3 +1779,8 @@ YOUTUBE
   font-size: 13px;
   color: #fff;
 }
+
+#contenido {
+  display: none;
+  transition: heigth 0.10s ease-in-out;
+}
